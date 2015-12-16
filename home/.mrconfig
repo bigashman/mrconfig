@@ -1,14 +1,14 @@
 [.homesick/repos/homeshick]
-checkout = git clone 'git://github.com/andsens/homeshick.git' 'homeshick'
+checkout = git clone 'https://github.com/andsens/homeshick.git' 'homeshick'
 
 [.homesick/repos/dotfiles]
-checkout = homeshick clone 'git@github.com:bigashman/dotfiles.git' 'dotfiles'
+checkout = homeshick clone 'https://github.com/bigashman/dotfiles.git' 'dotfiles'
 
 [.homesick/repos/bin]
-checkout = git clone 'git@github.com:bigashman/bin.git' 'bin'
+checkout = git clone 'https://github.com/bigashman/bin.git' 'bin'
 
 [./ansible/]
-checkout = git clone 'git@github.com:ansible/ansible.git' 'ansible'
+checkout = git clone 'https://github.com/ansible/ansible.git' 'ansible'
 
 [.vim_runtime]
 checkout =
