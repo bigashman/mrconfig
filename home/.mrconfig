@@ -6,15 +6,15 @@ checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick/repos
 order = 2
 checkout =
   source ~/.homesick/repos/homeshick/homeshick.sh
-  homeshick clone 'https://github.com/bigashman/dotfiles.git' 'dotfiles'
+  homeshick clone 'https://github.com/bigashman/dotfiles.git'
 
-[.homesick/repos/bin]
+[bin]
 order = 3
 checkout =
   source ~/.homesick/repos/homeshick/homeshick.sh
-  homeshick clone 'https://github.com/bigashman/bin.git' 'bin'
+  homeshick clone 'https://github.com/bigashman/bin.git'
 
-[./ansible/]
+[ansible]
 checkout = git clone 'https://github.com/ansible/ansible.git' 'ansible'
 
 [.vim_runtime]
