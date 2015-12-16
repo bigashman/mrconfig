@@ -1,12 +1,15 @@
 [.homesick]
+order = 1
 checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick/repos'
 
 [.homesick/repos/dotfiles]
+order = 2
 checkout =
   source .homesick/repos/homeshick/homeshick.sh
   homeshick clone 'https://github.com/bigashman/dotfiles.git' 'dotfiles'
 
 [.homesick/repos/bin]
+order = 3
 checkout =
   source .homesick/repos/homeshick/homeshick.sh
   homeshick clone 'https://github.com/bigashman/bin.git' 'bin'
