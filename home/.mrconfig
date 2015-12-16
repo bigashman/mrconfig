@@ -14,6 +14,12 @@ checkout =
   source ~/.homesick/repos/homeshick/homeshick.sh
   homeshick clone 'https://github.com/bigashman/bin.git'
 
+[.homesick/repos/mrconfig]
+order = 99
+checkout =
+  source ~/.homesick/repos/homeshick/homeshick.sh
+  homeshick clone 'https://github.com/bigashman/mrconfig.git'
+
 [ansible]
 checkout = git clone 'https://github.com/ansible/ansible.git' 'ansible'
 
