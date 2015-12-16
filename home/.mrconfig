@@ -1,13 +1,13 @@
-[.homesick/repos/homeshick]
-checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick'
+[homeshick]
+checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick/repos'
 
 [.homesick/repos/dotfiles]
-checkout = 
+checkout =
   source .homesick/repos/homeshick/homeshick.sh
   homeshick clone 'https://github.com/bigashman/dotfiles.git' 'dotfiles'
 
 [.homesick/repos/bin]
-checkout = 
+checkout =
   source .homesick/repos/homeshick/homeshick.sh
   homeshick clone 'https://github.com/bigashman/bin.git' 'bin'
 
