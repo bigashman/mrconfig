@@ -1,4 +1,4 @@
-[homeshick]
+[.homesick]
 checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick/repos'
 
 [.homesick/repos/dotfiles]
