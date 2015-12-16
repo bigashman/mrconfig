@@ -1,17 +1,21 @@
 [.homesick/repos/homeshick]
-checkout = git clone 'https://github.com/andsens/homeshick.git' 'homeshick'
+checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick/repos/homeshick'
 
 [.homesick/repos/dotfiles]
-checkout = homeshick clone 'https://github.com/bigashman/dotfiles.git' 'dotfiles'
+checkout = 
+  source .homesick/repos/homeshick/homeshick.sh
+  homeshick clone 'https://github.com/bigashman/dotfiles.git' 'dotfiles'
 
 [.homesick/repos/bin]
-checkout = git clone 'https://github.com/bigashman/bin.git' 'bin'
+checkout = 
+  source .homesick/repos/homeshick/homeshick.sh
+  homeshick clone 'https://github.com/bigashman/bin.git' 'bin'
 
 [./ansible/]
 checkout = git clone 'https://github.com/ansible/ansible.git' 'ansible'
 
 [.vim_runtime]
 checkout =
-  git clone 'https://github.com/amix/vimrc.git' '~/.vim_runtime'
+  git clone 'https://github.com/amix/vimrc.git' '.vim_runtime'
   /bin/sh ~/.vim_runtime/install_awesome_vimrc.sh
   echo 'set nomouse' >> ~/.vim_runtime/my_configs.vim
