@@ -1,6 +1,6 @@
 [.homesick]
 order = 1
-checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick/repos'
+checkout = git clone 'https://github.com/andsens/homeshick.git' '.homesick/repos/homeshick'
 
 [.homesick/repos/dotfiles]
 order = 2
