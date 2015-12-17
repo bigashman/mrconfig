@@ -21,9 +21,9 @@ checkout =
   homeshick clone 'https://github.com/bigashman/mrconfig.git'
 
 [ansible]
-checkout = 
+checkout =
   git clone 'https://github.com/ansible/ansible.git' 'ansible'
-  git submodule update --init --recursive ansible
+  cd ansible && git submodule update --init --recursive
 
 [.vim_runtime]
 checkout =
