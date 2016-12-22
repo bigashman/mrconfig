@@ -30,6 +30,8 @@ checkout =
   git clone 'https://github.com/amix/vimrc.git' '.vim_runtime'
   /bin/sh ~/.vim_runtime/install_awesome_vimrc.sh
   echo 'set mouse=' >> ~/.vim_runtime/my_configs.vim
+  echo 'set shiftwidth=2' >> ~/.vim_runtime/my_configs.vim
+  echo 'nnoremap <Space> :noh<cr><CR>:<backspace>' >> ~/.vim_runtime/my_configs.vim
 
 [.liquidprompt]
 checkout = git clone https://github.com/nojhan/liquidprompt.git .liquidprompt
